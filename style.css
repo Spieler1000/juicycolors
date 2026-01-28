@@ -8,3 +8,7 @@ body {
     color: var(--text-color);
     font-family: 'Manrope';font-size: 22px;
 }
+
+h1 {
+    font-weight: bold;
+}
