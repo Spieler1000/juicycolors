@@ -24,7 +24,7 @@ body {
 
     background: linear-gradient(
         90deg,
-        white, red, green, cyan, white
+        white, white, red, green, cyan, white, white
     );
 
     -webkit-background-clip: text;
