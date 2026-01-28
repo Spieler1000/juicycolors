@@ -16,19 +16,9 @@ body {
 
     background: linear-gradient(
         90deg,
-        red, orange, yellow, green, cyan, blue, violet
+        red, green, cyan
     );
-    background-size: 300% 100%;
-    background-position: center;
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    animation: rainbow 6s ease infinite;
-}
-
-@keyframes rainbow {
-    0%   { background-position: 0% 50%; }
-    50%  { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
