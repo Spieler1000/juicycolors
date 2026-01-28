@@ -9,7 +9,23 @@ body {
     font-family: 'Manrope';font-size: 22px;
 }
 
-h1 {
+.title {
     font-weight: bolder;
     text-align: center;
+    font-size: 4rem;
+
+    background: linear-gradient(
+        90deg,
+        #ff4d4d,
+        #ffb84d,
+        #ffff4d,
+        #4dff4d,
+        #4dd2ff,
+        #7f4dff,
+        #ff4dd2
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
