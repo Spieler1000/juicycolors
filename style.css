@@ -1,12 +1,20 @@
 :root {
-    --background-color: #000000;
-    --text-color: #ffffff;
+    --bg-1: #0b0b0f;
+    --bg-2: #14141c;
+    --text-color: #f5f5f7;
 }
 
 body {
-    background-color: var(--background-color);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
     color: var(--text-color);
-    font-family: 'Manrope';font-size: 22px;
+
+    background: radial-gradient(
+        circle at top,
+        var(--bg-2),
+        var(--bg-1) 70%
+    );
 }
 
 .title {
