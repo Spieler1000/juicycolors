@@ -2,7 +2,7 @@
     --bg-1: #0b0b0f;
     --bg-2: #14141c;
     --text-color: #f5f5f7;
-    --card-border: #1d1d29;
+    --card-border: #2a2a2b;
 }
 
 body {
@@ -39,8 +39,17 @@ body {
 }
 
 .color-card {
-    border: 10px solid var(--text-color);
+    border: 5px solid var(--card-border);
+    border-radius: 20;
     background-color: var(--color);
     height: 100%;
     width: 100%;
+}
+
+.color-info {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
 }
