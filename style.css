@@ -34,5 +34,6 @@ body {
 
 
 .color-card {
-    border: 4px solid var(--card-border);
+    border: 10px solid var(--text-color);
+    background-color: var(--color);
 }
