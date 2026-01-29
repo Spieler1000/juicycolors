@@ -43,6 +43,7 @@ body {
     background-color: #333333;
     height: 100%;
     width: 100%;
+    display: block;
 }
 
 .color-meta {
@@ -58,6 +59,5 @@ body {
     background-color: lime;
     height: 60%;
     width: 90%;
-    display: flex;
     align-self: center;
 }
