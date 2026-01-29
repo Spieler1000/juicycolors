@@ -32,10 +32,15 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.library {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px
+}
 
 .color-card {
     border: 10px solid var(--text-color);
     background-color: var(--color);
-    height: 20%;
-    width: 20%;
+    height: 100%;
+    width: 100%;
 }
