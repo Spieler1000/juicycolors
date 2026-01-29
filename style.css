@@ -39,8 +39,7 @@ body {
 }
 
 .color-card {
-    border: 5px solid var(--card-border);
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: #333333;
     height: 100%;
     width: 100%;
@@ -56,5 +55,9 @@ body {
 }
 
 .color-swatch {
-    background-color: var(--color);
+    background-color: lime;
+    height: 60%;
+    width: 90%;
+    display: flex;
+    align-self: center;
 }
