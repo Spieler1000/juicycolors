@@ -40,7 +40,7 @@ body {
 
 .color-card {
     border: 5px solid var(--card-border);
-    border-radius: 20;
+    border-radius: 50px;
     background-color: var(--color);
     height: 100%;
     width: 100%;
