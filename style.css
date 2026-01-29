@@ -41,7 +41,7 @@ body {
 .color-card {
     border: 5px solid var(--card-border);
     border-radius: 50px;
-    background-color: var(--color);
+    background-color: #333333;
     height: 100%;
     width: 100%;
 }
@@ -52,5 +52,9 @@ body {
     align-items: center;
     font-size: 1rem;
     font-weight: 600;
-    color: #787878a7;
+    color: var(--text-color)
+}
+
+.color-swatch {
+    background-color: var(--color);
 }
